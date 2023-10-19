@@ -1,0 +1,49 @@
+Exercise 1
+Pico - minmal CSS framework
+1. Navigate to https://picocss.com and click on "Get Started"
+Copy the link tag under "Install from CDN"
+2. Paste the link tag in the head section of index.html
+3. Implement the dark theme:
+Add the attribute data-theme = "dark" to the html tag
+
+
+Exercise 2
+Bootstrap - comprehensive CSS framework
+1. Remove the Pico code
+2. Navigate to https://getbootstrap.com and click on "Read the Docs"
+Scroll down to "CDN Links" and copy the link tag
+3. Paste the link tag in the head section of index.html
+4. Implement dark theme:
+Add the attribute data-bs-theme = "dark" to the html tag
+
+Exercise 3
+Style header hero section with Bootstrap
+1. Add classes text-center and container-fluid to the header tag
+2. Add classes display-1 and mx-auto to the h1 tag
+3. In style.css, select the header tag and add a background image: car-cover.jpg
+Set its size to cover
+Set its position to center center
+Add top and bottom padding of 16ch
+
+Exercise 4 
+Style Card components
+1. Add class card to the div tags
+2. Add class card-img-top to the image tags
+3. Wrap a div with class card-body around the text elements
+4. In style.css, select card-body and set text-align to left
+
+
+Exercise 5
+Bootstrap grid system
+1. Add classes container-sm and text-center to both section tags
+2. Wrap a div with classes row and g-5 around the first 3 cards
+Repeat for the second 3 divs
+3. Wrap a div with class col-lg-4 around each card div
+4. Custom CSS: select .row and set top padding to 60px
+
+
+Practice Session
+Style the form using Bootstrap
+1. Navigate to https://getbootstrap.com/docs/5.3/forms/overview/ and examine the markup and class names used to style a form.
+2. Look at the provided screenshot and style your form to match it using Bootstrap markup and class names.
+3. Prevent the form from getting wider than 576px on large screens, and make sure it stays in the middle of the page. Use either Bootstrap or custom CSS.
