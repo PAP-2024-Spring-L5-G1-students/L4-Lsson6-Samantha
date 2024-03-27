@@ -1,0 +1,21 @@
+header {
+    background-image: url("images/cover-car.jpg");
+    /* since the photo is in the images folder we put images/ , you always want to use "" for images */
+    background-size: cover;
+    /* background-size is affecing an image */
+    background-position: center center;
+    /* using two centers here becuase background-position wants to know the verical and horizontal mesauraments of the image */
+    /* cover maintains the width from left to right when a person changes the size of the window (100% and down) */
+    padding-top: 16ch ;
+    padding-bottom: 16ch;
+    
+
+}
+
+.cardbody {
+    text-align:left;
+}
+
+.row {
+    padding-top: 60px;
+}

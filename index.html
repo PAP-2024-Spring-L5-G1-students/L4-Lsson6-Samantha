@@ -6,16 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cool Cars</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+/> -->
+<!-- That code is from Pico and made the website theme dark -->
 </head>
 
 <body>
-    <header>
-        <h1>Cool Cars</h1>
+    <header class = "text-center container-fluid">
+        <h1 class = "display-1 mx-auto">Cool Cars</h1>
+        <!-- mx-auto: a auto margin across the horizontal space, can center a block element -->
+        <!-- display-1 makes the heading text look larger (there are headings-1-6, 6 being the smallest text heading) -->
     </header>
     <main>
-        <section>
-            <div>
-                <img src="images/yellow-car.jpeg">
+        <section class = "container-sm text center">
+            <div class = "row g-5">
+            <div class = "col-lg-4">
+            <div class = "card">
+                <img src="images/yellow-car.jpeg" class ="card-img-top">
+                <div class = "card-body">
                 <h2>Yellow Concept Car</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
                     pharetra
@@ -26,8 +38,12 @@
                     Nulla lacinia sed nulla vitae cursus. </p>
                 <button>Read More</button>
             </div>
-            <div>
-                <img src="images/red-car.jpeg">
+        </div> 
+            </div>
+            <div class = "col-lg-4">
+            <div class = "card">
+                <img src="images/red-car.jpeg" class ="card-img-top">
+                <div class = "card-body">
                 <h2>Red Concept Car</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
                     pharetra
@@ -38,8 +54,12 @@
                     Nulla lacinia sed nulla vitae cursus. </p>
                 <button>Read More</button>
             </div>
-            <div>
-                <img src="images/black-car.jpg">
+        </div>
+    </div>
+        <div class = "col-lg-4">
+            <div  class = "card">
+                <img src="images/black-car.jpg" class ="card-img-top">
+                <div class = "card-body">
                 <h2>Black Concept Car</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
                     pharetra
@@ -50,8 +70,15 @@
                     Nulla lacinia sed nulla vitae cursus. </p>
                 <button>Read More</button>
             </div>
-            <div>
-                <img src="images/chartreuce-lamborg.jpeg">
+            </div>
+        </div>
+    </div>
+   
+        <div class = "row g-5">
+            <div class = "col-lg-4">
+            <div class = "card">
+                <img src="images/chartreuce-lamborg.jpeg" class ="card-img-top">
+                <div class = "card-body">
                 <h2>Lamborghini</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
                     pharetra
@@ -61,10 +88,14 @@
                     arcu.
                     Nulla lacinia sed nulla vitae cursus. </p>
                 <button>Read More</button>
+                </div>
             </div>
-            <div>
-                <img src="images/neon-wheels.jpeg">
-                <h2>Glwing Wheels Concept Car</h2>
+            </div>
+            <div class = "col-lg-4">
+            <div class = "card">
+                <img src="images/neon-wheels.jpeg" class ="card-img-top">
+                <div class = "card-body">
+                <h2>Glowing Wheels Concept Car</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
                     pharetra
                     arcu. Sed blandit pretium pharetra. Vestibulum iaculis ligula sit amet nunc dapibus
@@ -74,8 +105,12 @@
                     Nulla lacinia sed nulla vitae cursus. </p>
                 <button>Read More</button>
             </div>
-            <div>
-                <img src="images/hover-car.jpg">
+            </div>
+        </div>
+        <div class = "col-lg-4">
+            <div class = "card">
+                <img src="images/hover-car.jpg" class ="card-img-top">
+                <div class = "card-body">
                 <h2>Hover Concept Car</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at
                     pharetra
@@ -86,8 +121,11 @@
                     Nulla lacinia sed nulla vitae cursus. </p>
                 <button>Read More</button>
             </div>
+            </div>
+            </div>
+        </div>
         </section>
-        <section>
+        <section class = "container-sm text center"
             <h3>Get Our Newsfeed</h3>
             <form>
                 
